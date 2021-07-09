@@ -1,0 +1,67 @@
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.exe
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.deps.json
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.runtimeconfig.json
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.runtimeconfig.dev.json
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\ref\Custom Music Player.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.pdb
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.csproj.AssemblyReference.cache
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Views\Custom Music Player.g.cs
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player_MarkupCompile.cache
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player_MarkupCompile.lref
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Views\Custom Music Player.baml
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.g.resources
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.AssemblyInfoInputs.cache
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.AssemblyInfo.cs
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.csproj.CoreCompileInputs.cache
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\ref\Custom Music Player.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.pdb
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.genruntimeconfig.cache
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\ShowMeTheXAML.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\App.baml
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.csproj.CopyComplete
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Ineraction.baml
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Ineraction.g.cs
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Microsoft.Expression.Interactions.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\System.Windows.Interactivity.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Omero4\source\repos\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player_Content.g.cs
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.exe
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.deps.json
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.runtimeconfig.json
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.runtimeconfig.dev.json
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\ref\Custom Music Player.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Custom Music Player.pdb
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Microsoft.Expression.Interactions.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\System.Windows.Interactivity.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\Microsoft.Xaml.Behaviors.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\bin\Debug\net5.0-windows\ShowMeTheXAML.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.csproj.AssemblyReference.cache
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Ineraction.baml
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Ineraction.g.cs
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Views\Custom Music Player.g.cs
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\App.g.cs
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player_MarkupCompile.cache
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player_MarkupCompile.lref
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\App.baml
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Views\Custom Music Player.baml
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.g.resources
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.AssemblyInfoInputs.cache
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.AssemblyInfo.cs
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.csproj.CoreCompileInputs.cache
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.csproj.CopyComplete
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\ref\Custom Music Player.dll
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.pdb
+D:\Project\Copy\Custom Music Player\Custom Music Player\Custom Music Player\obj\Debug\net5.0-windows\Custom Music Player.genruntimeconfig.cache

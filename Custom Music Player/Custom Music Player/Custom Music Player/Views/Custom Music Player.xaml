@@ -1,0 +1,228 @@
+﻿<Window x:Class="Custom_Music_Player.Views.Custom_Music_Player" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:Custom_Music_Player.ViewModels"
+        xmlns:local="clr-namespace:Custom_Music_Player"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d" 
+        Title="Welcome Music Player" 
+        Height="709" 
+        Width="800"
+        WindowStartupLocation="CenterScreen" 
+        WindowState="Normal"
+        ResizeMode="NoResize">
+    <Window.Resources>
+        <vm:Works x:Key="Work" />
+        <Style TargetType="ScrollBar">
+            <Setter Property="Background" Value="DarkGray"/>
+            <Setter Property="Foreground" Value="Blue"/>
+        </Style>
+    </Window.Resources>
+    <StackPanel Background="Black" DataContext="{StaticResource Work}">
+        <StackPanel Orientation="Vertical" Height="435" >
+            <ContentControl Content="{Binding Element}" />
+        </StackPanel>
+        <StackPanel Height="30" Orientation="Horizontal">
+            <StackPanel Width="78" Margin="0 0 5 0">
+                <TextBlock Text="{Binding Contents[0]}" Foreground="White" FontSize="18" VerticalAlignment="Center" Margin="5 0 0 0"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center">
+                <Slider 
+                    Minimum="0" 
+                    Maximum="{Binding ProgressSlider.Maximum}" 
+                    Value="{Binding ProgressSlider.Value}" 
+                    Width="625" 
+                    VerticalAlignment="Center"
+                    Foreground="DodgerBlue" 
+                    Margin="0 3 0 0">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseUp" >
+                            <i:InvokeCommandAction Command="{Binding MouseUpBut}" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </Slider>
+            </StackPanel>
+            <StackPanel Width="67" Margin="5 0 0 0">
+                <TextBlock Text="{Binding Contents[1], UpdateSourceTrigger=PropertyChanged}" Foreground="White" FontSize="18" VerticalAlignment="Center" />
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Height="50" Orientation="Horizontal">
+            <Button 
+                Width="81" 
+                Background="Black" 
+                Foreground="White" 
+                Margin="5 0 0 0"
+                Command="{Binding OpenFileBut}"
+                BorderThickness="4"
+                BorderBrush="DodgerBlue">
+                <Button.Content>
+                    <materialDesign:PackIcon Kind="FileMultiple" Width="20" Height="20"/>
+                </Button.Content>
+            </Button>
+            <Button 
+                Content="{Binding RepeatButton.Content}" 
+                Background="{Binding RepeatButton.Background}"
+                Foreground="{Binding RepeatButton.Foreground}"
+                Width="{Binding RepeatButton.Width}"
+                Margin="{Binding RepeatButton.Margin}"
+                BorderThickness="{Binding RepeatButton.BorderThickness}"
+                BorderBrush="{Binding RepeatButton.BorderBrush}"
+                Command="{Binding RepeatBut}"/>
+            <Button 
+                Width="81" 
+                Background="Black" 
+                Foreground="White" 
+                Margin="5 0 0 0"
+                Command="{Binding PreviousBut}"
+                BorderThickness="4"
+                BorderBrush="DodgerBlue">
+                <Button.Content>
+                    <materialDesign:PackIcon Kind="PreviousTitle" Width="20" Height="20"/>
+                </Button.Content>
+            </Button>
+            <Button 
+                Width="81" 
+                Background="Black" 
+                Foreground="White" 
+                Margin="5 0 0 0"
+                Command="{Binding StopBut}"
+                BorderThickness="4"
+                BorderBrush="DodgerBlue">
+                <Button.Content>
+                    <materialDesign:PackIcon Kind="Stop" Width="20" Height="20"/>
+                </Button.Content>
+            </Button>
+            <Button 
+                Width="81" 
+                Background="Black" 
+                Foreground="White" 
+                Margin="5 0 0 0"
+                Command="{Binding PlayBut}"
+                BorderThickness="4"
+                BorderBrush="DodgerBlue">
+                <Button.Content>
+                    <materialDesign:PackIcon Kind="Play" Width="20" Height="20"/>
+                </Button.Content>
+            </Button>
+            <Button 
+                Width="81" 
+                Background="Black" 
+                Foreground="White" 
+                Margin="5 0 0 0"
+                Command="{Binding PauseBut}"
+                BorderThickness="4"
+                BorderBrush="DodgerBlue">
+                <Button.Content>
+                    <materialDesign:PackIcon Kind="Pause" Width="20" Height="20"/>
+                </Button.Content>
+            </Button>
+            <Button 
+                Width="81" 
+                Background="Black" 
+                Foreground="White" 
+                Margin="5 0 0 0"
+                Command="{Binding NextBut}"
+                BorderThickness="4"
+                BorderBrush="DodgerBlue">
+                <Button.Content>
+                    <materialDesign:PackIcon Kind="NextTitle" Width="20" Height="20"/>
+                </Button.Content>
+            </Button>
+            <Button 
+                Width="81" 
+                Background="Black" 
+                Foreground="White" 
+                Margin="5 0 0 0"
+                Command="{Binding MuteBut}"
+                BorderThickness="4"
+                BorderBrush="DodgerBlue">
+                <Button.Content>
+                    <materialDesign:PackIcon Kind="Mute" Width="20" Height="20"/>
+                </Button.Content>
+            </Button>
+            <Button 
+                Width="81" 
+                Background="Black" 
+                Foreground="White" 
+                Margin="5 0 0 0"
+                Command="{Binding SoundBut }"
+                BorderThickness="4"
+                BorderBrush="DodgerBlue">
+                <Button.Content>
+                    <materialDesign:PackIcon Kind="VolumeHigh" Width="20" Height="20"/>
+                </Button.Content>
+            </Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Height="150">
+            <ListBox 
+                Height="145"
+                Width="596" 
+                Foreground="White"
+                Background="Black" 
+                ScrollViewer.HorizontalScrollBarVisibility="Visible" 
+                ScrollViewer.VerticalScrollBarVisibility="Visible"
+                Margin="5 0 0 0" 
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                SelectedIndex="{Binding Box.SelectedIndex}"
+                SelectedItem="{Binding Box.SelectedItem}"
+                ItemsSource="{Binding Box.Items}"
+                BorderThickness="4"
+                BorderBrush="DodgerBlue">
+            </ListBox>
+            <StackPanel Orientation="Vertical">
+                <Button 
+                    Width="81" 
+                    Background="Black" 
+                    Foreground="White" 
+                    Margin="5 0 0 0"
+                    Command="{Binding TitleAddBut}"
+                    BorderThickness="4"
+                    BorderBrush="DodgerBlue">
+                    <Button.Content>
+                        <materialDesign:PackIcon Kind="PlayListAdd" Width="22" Height="22"/>
+                    </Button.Content>
+                </Button>
+                <Button 
+                    Width="81" 
+                    Background="Black" 
+                    Foreground="White" 
+                    Margin="5 24 0 0" 
+                    Command="{Binding TitleRemoveBut}"
+                    BorderThickness="4"
+                    BorderBrush="DodgerBlue">
+                    <Button.Content>
+                        <materialDesign:PackIcon Kind="PlaylistMinus" Width="20" Height="20"/>
+                    </Button.Content>
+                </Button>
+                <Button 
+                    Width="81" 
+                    Background="Black" 
+                    Foreground="White" 
+                    Margin="5 24 0 0"
+                    Command="{Binding TitleClearBut}"
+                    BorderThickness="4"
+                    BorderBrush="DodgerBlue">
+                    <Button.Content>
+                        <materialDesign:PackIcon Kind="PlaylistRemove" Width="20" Height="20"/>
+                    </Button.Content>
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Slider
+                    Width="20" 
+                    Height="140" 
+                    Foreground="DodgerBlue" 
+                    Margin="35 0 0 0" 
+                    Orientation="Vertical" 
+                    Value="{Binding Volume.Value}" 
+                    Minimum="{Binding Volume.Minimum}" 
+                    Maximum="{Binding Volume.Maximum}"
+                    Visibility="{Binding Volume.Visibility}"/>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
